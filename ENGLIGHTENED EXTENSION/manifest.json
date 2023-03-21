@@ -1,0 +1,10 @@
+{
+  "name": "Reality Reminder",
+  "version": "1.0",
+  "description": "A reminder that reality is an illusion!",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "notifications"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
